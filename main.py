@@ -7,7 +7,11 @@ def subtract(a, b):
 def multiply(a, b):
     return a * b
 
+def divide(a, b):
+    return a / b
+
 if __name__ == "__main__":
     print("3 + 5 =", add(3, 5))
     print("10 - 4 =", subtract(10, 4))
     print("6 * 7 =", multiply(6, 7))
+    print("10 / 2 =", divide(10, 2))
